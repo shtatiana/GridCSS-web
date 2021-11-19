@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initail-scape=1.0">
+    <meta name="author" content="Tatiana Shirshikova">
+    <title>NewsExplorer</title><meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <span href="#"class="header-logo">NewsExplorer</span>
+        <button class="burger-button"><img class = "burger" src="img/menu.png" alt="menu" /></button>
+        <nav class="header-nav">
+        <a href="#"class="header-main-link">Главная</a>
+        <a href="#"class="header-saved-articles-link">Сохраненные статьи</a>
+        </nav>
+        <button class="header-profile">
+            <a href="#"class="header-profile-link">Грета<img class="img-logout" src="img/logout.png" alt="logout"></a> 
+        </button>
+    </header>
+    <main class="main">
+        <div class="title">
+            <span class="title-category">Сохранённые статьи</span>
+            <h1 class="title-title">Грета, у вас 5 <br> сохранённых статей</h1>
+            <span class="title-keywords">По ключевым словам: <b>Природа, Тайга</b> и <b>2-м другим</b></span>
+        </div>
+        <div class="saved-news">
+            <section class="saved-news-item">
+                <div class="news-top"><div class="news-keyword">Природа</div>
+                    <button class="news-bin">
+                        <svg class="bin" xmlns="http://www.w3.org/2000/svg"> 
+                            <path class = "svg-path" fill-rule="evenodd" clip-rule="evenodd" d="M15 3H9V5H3V7H21V5H15V3ZM5 9V20C5 21.1046 5.89543 22 7 22H17C18.1046 22 19 21.1046 19 20V9H17V20H7V9H5ZM9 9L9 18H11L11 9H9ZM13 9V18H15V9H13Z"/></svg>
+                    </button>
+                </div>
+                <img class="news-image" src="img/ficus.png"
+                    alt="news image" />
+                <div class="news-date">2 августа, 2019</div>
+                <div class="news-title">Национальное достояние - парки</div>
+                <div class="news-summary">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала
+                    складываться система национальных парков – охраняемых территорий, где и сегодня каждый может
+                    приобщиться к природе.</div>
+                <div class="news-source-container">
+                    <div class="news-source">
+                        ДЗЕН
+                    </div>
+                </div>
+            </section>
+            <section class="saved-news-item">
+                <div class="news-top"><div class="news-keyword">Природа</div>
+                    <button class="news-bin">
+                        <svg class="bin" xmlns="http://www.w3.org/2000/svg"> 
+                            <path class = "svg-path" fill-rule="evenodd" clip-rule="evenodd" d="M15 3H9V5H3V7H21V5H15V3ZM5 9V20C5 21.1046 5.89543 22 7 22H17C18.1046 22 19 21.1046 19 20V9H17V20H7V9H5ZM9 9L9 18H11L11 9H9ZM13 9V18H15V9H13Z"/></svg>
+                    </button>
+                    <div class="tooltip-bin">Убрать из сохренённых</div>
+                </div>
+                <img class="news-image" src="img/map.png"
+                    alt="news image" />
+                <div class="news-date">2 августа, 2019</div>
+                <div class="news-title">Лесные огоньки: история одной фотографии</div>
+                <div class="news-summary">Фотограф отвлеклась от освещения суровой политической реальности Мексики, чтобы запечатлеть ускользающую красоту одного из местных чудес природы.</div>
+                <div class="news-source-container">
+                    <div class="news-source">
+                        АФИША
+                    </div>
+                </div>
+            </section>
+            <section class="saved-news-item">
+                <div class="news-top"><div class="news-keyword">Тайга</div>
+                    <button class="news-bin">
+                        <svg class="bin" xmlns="http://www.w3.org/2000/svg"> 
+                            <path class = "svg-path" fill-rule="evenodd" clip-rule="evenodd" d="M15 3H9V5H3V7H21V5H15V3ZM5 9V20C5 21.1046 5.89543 22 7 22H17C18.1046 22 19 21.1046 19 20V9H17V20H7V9H5ZM9 9L9 18H11L11 9H9ZM13 9V18H15V9H13Z"/></svg>
+                    </button>
+                </div>
+                <img class="news-image" src="img/flower.png"
+                    alt="news image" />
+                <div class="news-date">2 августа, 2019</div>
+                <div class="news-title">«Первозданная тайга»: новый фотопроект Игоря Шпиленка</div>
+                <div class="news-summary">Знаменитый фотограф снимает первозданные леса России, чтобы рассказать о необходимости их сохранения. В этот раз он отправился в Двинско-Пинежскую тайгу, где...</div>
+                <div class="news-source-container">
+                    <div class="news-source">
+                        МЕДИАЗОНА
+                    </div>
+                </div>
+            </section>
+            <section class="saved-news-item">
+                <div class="news-top"><div class="news-keyword">Парки</div>
+                    <button class="news-bin">
+                        <svg class="bin" xmlns="http://www.w3.org/2000/svg"> 
+                            <path class = "svg-path" fill-rule="evenodd" clip-rule="evenodd" d="M15 3H9V5H3V7H21V5H15V3ZM5 9V20C5 21.1046 5.89543 22 7 22H17C18.1046 22 19 21.1046 19 20V9H17V20H7V9H5ZM9 9L9 18H11L11 9H9ZM13 9V18H15V9H13Z"/></svg>
+                    </button>
+                </div>
+                <img class="news-image" src="img/ficus.png"
+                    alt="news image" />
+                <div class="news-date">2 августа, 2019</div>
+                <div class="news-title">Национальное достояние - парки</div>
+                <div class="news-summary">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала
+                    складываться система национальных парков – охраняемых территорий, где и сегодня каждый может
+                    приобщиться к природе.</div>
+                <div class="news-source-container">
+                    <div class="news-source">
+                        ДЗЕН
+                    </div>
+                </div>
+            </section>
+            <section class="saved-news-item">
+                <div class="news-top"><div class="news-keyword">Фотография</div>
+                    <button class="news-bin">
+                        <svg class="bin" xmlns="http://www.w3.org/2000/svg"> 
+                            <path class = "svg-path" fill-rule="evenodd" clip-rule="evenodd" d="M15 3H9V5H3V7H21V5H15V3ZM5 9V20C5 21.1046 5.89543 22 7 22H17C18.1046 22 19 21.1046 19 20V9H17V20H7V9H5ZM9 9L9 18H11L11 9H9ZM13 9V18H15V9H13Z"/></svg>
+                    </button>
+                </div>
+                <img class="news-image" src="img/map.png"
+                    alt="news image" />
+                <div class="news-date">2 августа, 2019</div>
+                <div class="news-title">Лесные огоньки: история одной фотографии</div>
+                <div class="news-summary">Фотограф отвлеклась от освещения суровой политической реальности Мексики, чтобы запечатлеть ускользающую красоту одного 
+из местных чудес природы.</div>
+                <div class="news-source-container">
+                    <div class="news-source">
+                        АФИША
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <p href="#"class="footer-rights">© 2020 Supersite, Powered by News API</p>
+        <nav class="footer-nav">
+            <a href="#"class="footer-link">Главная</a>
+            <a href="#"class="footer-link">Яндекс.Практикум</a>
+        </nav>
+            <div class="footer-social-media">
+                <a href="#"class="footer-social-media-link"><img class="img-sm" src="img/github.png" alt="github"></a>
+                <a href="#"class="footer-social-media-link"><img src="img/facebook.png" alt="facebook"></a>
+            </div>
+    </footer>
+</body>
+</html>
